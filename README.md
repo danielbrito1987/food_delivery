@@ -1,4 +1,4 @@
-# food_devlivery
+# food_delivery
 
 App desenvolvido para o teste prático da pag!
 Consta em um app de delivery de comida para um restaurante.
