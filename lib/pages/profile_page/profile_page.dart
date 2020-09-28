@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/pages/profile_page/controller/profile.controller.dart';
-import 'package:food_delivery/pages/profile_page/widgets/googleSignInButton.widget.dart';
 import 'package:food_delivery/pages/profile_page/widgets/profileInfo.widget.dart';
 import 'package:get_it/get_it.dart';
 
@@ -22,11 +21,7 @@ class _ProfilePageState extends State<ProfilePage> {
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 20.0),
-          child: controller.user != null
-              ? ProfileInfo()
-              : Center(
-                  child: GoogleSignInButton(),
-                ),
+          child: ProfileInfo(),
         ),
       ),
     );

@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "557524860401",
-    "firebase_url": "https://food-delivery-48621.firebaseio.com",
-    "project_id": "food-delivery-48621",
-    "storage_bucket": "food-delivery-48621.appspot.com"
+    "project_number": "946309230658",
+    "firebase_url": "https://fooddelivery-9c0da.firebaseio.com",
+    "project_id": "fooddelivery-9c0da",
+    "storage_bucket": "fooddelivery-9c0da.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:557524860401:android:bacf045b85653ce9941850",
+        "mobilesdk_app_id": "1:946309230658:android:e001830dc2e666ec93bddb",
         "android_client_info": {
-          "package_name": "com.example.food_delivery"
+          "package_name": "com.brito.food_delivery"
         }
       },
       "oauth_client": [
         {
-          "client_id": "557524860401-fmn152gg3ug00ace5q8epmlh25gdt97q.apps.googleusercontent.com",
+          "client_id": "946309230658-n7lg6mlv2tp27e6n76fhomqmrn0ijh5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brito.food_delivery",
+            "certificate_hash": "b9420343c1879e7fb0954a86f05cd00a94f8133b"
+          }
+        },
+        {
+          "client_id": "946309230658-cnfd23lninikssiqn8nqon9s64m7hdr1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCEy88Rt9-4PIZuEmsu1_r7OpGJ_xVZ_-E"
+          "current_key": "AIzaSyD_UOPrzQiXRmPKVBPuPUl6xGxdgIVDvLA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "557524860401-fmn152gg3ug00ace5q8epmlh25gdt97q.apps.googleusercontent.com",
+              "client_id": "946309230658-cnfd23lninikssiqn8nqon9s64m7hdr1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

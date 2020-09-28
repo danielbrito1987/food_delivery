@@ -9,7 +9,7 @@ class ProfileInfo extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-          "Profile",
+          "Perfil",
           style: TextStyle(
             fontSize: 32.0,
             fontWeight: FontWeight.bold,
@@ -48,7 +48,7 @@ class ProfileInfo extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Richmond Blankson",
+                  "Daniel Brito",
                   style: TextStyle(
                     fontSize: 16.0,
                   ),
@@ -57,7 +57,7 @@ class ProfileInfo extends StatelessWidget {
                   height: 10.0,
                 ),
                 Text(
-                  "+233247656959",
+                  "+55 27 99299-0929",
                   style: TextStyle(color: Colors.grey),
                 ),
                 SizedBox(
