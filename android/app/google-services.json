@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "946309230658-n7lg6mlv2tp27e6n76fhomqmrn0ijh5q.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.brito.food_delivery",
-            "certificate_hash": "b9420343c1879e7fb0954a86f05cd00a94f8133b"
-          }
-        },
-        {
           "client_id": "946309230658-cnfd23lninikssiqn8nqon9s64m7hdr1.apps.googleusercontent.com",
           "client_type": 3
         }

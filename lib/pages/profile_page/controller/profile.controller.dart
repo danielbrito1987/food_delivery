@@ -14,7 +14,12 @@ abstract class _ProfileControllerBase with Store {
   User user;
 
   Dio dio = Dio();
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
+  final GoogleSignIn _googleSignIn = GoogleSignIn(
+    scopes: [
+      'email',
+      'https://www.googleapis.com/auth/contacts.readonly',
+    ],
+  );
   final FirebaseAuth _auth = FirebaseAuth.instance;
   bool isUserSignedIn = false;
 
@@ -41,7 +46,9 @@ abstract class _ProfileControllerBase with Store {
       // get the credentials to (access / id token)
       // to sign in via Firebase Authentication
       final AuthCredential credential = GoogleAuthProvider.credential(
-          accessToken: googleAuth.accessToken, idToken: googleAuth.idToken);
+        accessToken: googleAuth.accessToken,
+        idToken: googleAuth.idToken,
+      );
       user = (await _auth.signInWithCredential(credential)).user;
       isUserSignedIn = await _googleSignIn.isSignedIn();
     }
